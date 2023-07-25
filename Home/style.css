@@ -1,0 +1,658 @@
+.page-landing-pagebutton-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.page-landing-pagebutton-page-landing-pagebutton {
+  width: 100%;
+  height: 4096px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-default-canvas);
+}
+.page-landing-pagebutton-group25svg {
+  top: 590px;
+  left: -3px;
+  width: 1495px;
+  height: 473px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.page-landing-pagebutton-vector {
+  top: 205px;
+  left: -230px;
+  width: 1495px;
+  height: 284px;
+  position: absolute;
+}
+.page-landing-pagebutton-text {
+  top: 55px;
+  left: 711px;
+  color: rgba(68, 68, 68, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Figtree;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.page-landing-pagebutton-text02 {
+  top: 53px;
+  left: 591px;
+  color: rgba(68, 68, 68, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Figtree;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.page-landing-pagebutton-text04 {
+  top: 54px;
+  left: 866px;
+  color: rgba(68, 68, 68, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Figtree;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.page-landing-pagebutton-text06 {
+  top: 245px;
+  left: 591px;
+  color: rgba(68, 68, 68, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Figtree;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.page-landing-pagebutton-text08 {
+  top: 380px;
+  left: 598px;
+  color: rgba(68, 68, 68, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: italic;
+  text-align: left;
+  font-family: Figtree;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.page-landing-pagebutton-text10 {
+  top: 432px;
+  left: 598px;
+  color: rgba(68, 68, 68, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: italic;
+  text-align: left;
+  font-family: Figtree;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.page-landing-pagebutton-text23 {
+  top: 1384px;
+  left: 87px;
+  color: rgba(68, 68, 68, 1);
+  width: 743px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: justified;
+  font-family: Figtree;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.page-landing-pagebutton-text30 {
+  top: 2432px;
+  left: 598px;
+  color: rgba(68, 68, 68, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: italic;
+  text-align: left;
+  font-family: Figtree;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.page-landing-pagebutton-text39 {
+  top: 303px;
+  left: 598px;
+  right: 7px;
+  color: rgba(255, 198, 11, 1);
+  width: 662px;
+  height: auto;
+  position: absolute;
+  font-size: 50px;
+  font-style: bold;
+  text-align: left;
+  font-family: Figtree;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.page-landing-pagebutton-text41 {
+  top: 1267px;
+  left: 87px;
+  color: rgba(255, 198, 11, 1);
+  height: auto;
+  position: absolute;
+  font-size: 64px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Figtree;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.page-landing-pagebutton-text43 {
+  top: 2303px;
+  left: 598px;
+  right: 7px;
+  color: rgba(255, 198, 11, 1);
+  width: 662px;
+  height: auto;
+  position: absolute;
+  font-size: 50px;
+  font-style: bold;
+  text-align: left;
+  font-family: Figtree;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.page-landing-pagebutton-sign-up-buttonbutton {
+  top: 50px;
+  left: 1104px;
+  width: 126px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 198, 11, 1);
+}
+.page-landing-pagebutton-text45 {
+  top: 8px;
+  left: 27px;
+  color: rgba(255, 255, 255, 1);
+  width: 72px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Figtree;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.page-landing-pagebutton-log-in-buttonbutton {
+  top: 50px;
+  left: 974px;
+  width: 126px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.page-landing-pagebutton-login {
+  top: 5px;
+  left: 29px;
+  width: 67px;
+  height: 29px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.page-landing-pagebutton-text47 {
+  top: 0px;
+  left: 0px;
+  color: rgba(255, 198, 11, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Figtree;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.page-landing-pagebutton-vector1 {
+  left: 1px;
+  width: 1265px;
+  bottom: -19px;
+  height: 297px;
+  position: absolute;
+}
+.page-landing-pagebutton-ellipse3 {
+  top: 10px;
+  left: 50px;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+}
+.page-landing-pagebutton-cv3buttonsvg {
+  top: 18px;
+  left: 50px;
+  width: 89px;
+  height: 82px;
+  position: absolute;
+}
+.page-landing-pagebutton-text49 {
+  top: 4000px;
+  left: 980px;
+  color: var(--dl-color-text-icon);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: reguler;
+  text-align: left;
+  font-family: Figtree;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.page-landing-pagebutton-cv4svg {
+  top: 3914px;
+  left: 50px;
+  width: 300px;
+  height: 72px;
+  position: absolute;
+}
+.page-landing-pagebutton-icbaselinewhatsapp {
+  right: 220px;
+  width: 30px;
+  bottom: 22px;
+  height: 30px;
+  position: absolute;
+}
+.page-landing-pagebutton-group26svg {
+  top: 1788px;
+  left: -3px;
+  width: 1270px;
+  height: 310px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.page-landing-pagebutton-vectorsvg {
+  top: -72px;
+  left: 0px;
+  width: 1265px;
+  height: 223px;
+  position: absolute;
+}
+.page-landing-pagebutton-vectorsvg1 {
+  top: -1113px;
+  left: 0px;
+  width: 1265px;
+  height: 203px;
+  position: absolute;
+}
+.page-landing-pagebutton-vectorsvg2 {
+  top: 120px;
+  left: 0px;
+  width: 1265px;
+  height: 162px;
+  position: absolute;
+}
+.page-landing-pagebutton-group27svg {
+  top: 2792px;
+  left: -462px;
+  width: 1443px;
+  height: 375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.page-landing-pagebutton-vector2 {
+  top: 72px;
+  right: -284px;
+  width: 1265px;
+  height: 216px;
+  position: absolute;
+}
+.page-landing-pagebutton-vector3 {
+  right: -284px;
+  width: 1265px;
+  bottom: -82px;
+  height: 216px;
+  position: absolute;
+}
+.page-landing-pagebutton-text51 {
+  top: 4006px;
+  left: 50px;
+  color: var(--dl-color-text-icon);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Figtree;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.page-landing-pagebutton-text52 {
+  font-weight: 400;
+}
+.page-landing-pagebutton-text53 {
+  font-weight: 600;
+}
+.page-landing-pagebutton-text55 {
+  top: 3960px;
+  left: 950px;
+  color: var(--dl-color-text-icon);
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  font-style: semibold;
+  text-align: left;
+  font-family: Figtree;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.page-landing-pagebutton-instagram {
+  top: -3px;
+  right: 148px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.page-landing-pagebutton-text57 {
+  top: 4035px;
+  left: 980px;
+  color: var(--dl-color-text-icon);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: reguler;
+  text-align: left;
+  font-family: Figtree;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.page-landing-pagebutton-text59 {
+  top: 4038px;
+  left: 50px;
+  color: var(--dl-color-text-icon);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Figtree;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.page-landing-pagebutton-group22svg {
+
+}
+.page-landing-pagebutton-text41 .coffee1 {
+  top: 5px;
+  left: 750px;
+  width: 269px;
+  height: 339px;
+  position: absolute;
+}
+.page-landing-pagebutton-text41 .coffee2 {
+  top: 83px;
+  left: 890px;
+  width: 318px;
+  height: 293px;
+  position: absolute;
+}
+.page-landing-pagebutton-group21svg {
+  top: 217px;
+  left: 145px;
+  width: 398px;
+  height: 441px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.page-landing-pagebutton-awards-gallery201-selected-imagesremovebgpreview1 {
+  top: 49px;
+  right: 35px;
+  width: 214px;
+  height: 321px;
+  position: absolute;
+}
+.page-landing-pagebutton-image23636885m021t006paperfoodboxmockup021 {
+  top: 284px;
+  left: 232px;
+  width: 142px;
+  height: 130px;
+  position: absolute;
+}
+.page-landing-pagebutton-contoh--banner011 {
+  top: 20px;
+  left: -6px;
+  width: 158px;
+  height: 389px;
+  position: absolute;
+}
+.page-landing-pagebutton-image29110573m024t0160bpaperbag24jun221 {
+  top: 294px;
+  left: 32px;
+  width: 102px;
+  height: 139px;
+  position: absolute;
+}
+.page-landing-pagebutton-banner201013 {
+  top: 208.433349609375px;
+  left: 64.848876953125px;
+  width: 173px;
+  height: 178px;
+  position: absolute;
+}
+.page-landing-pagebutton-coffeemugmockup2 {
+  top: 323px;
+  left: 225px;
+  width: 73px;
+  height: 94px;
+  position: absolute;
+}
+.page-landing-pagebutton-image29110573m024t0160bpaperbag24jun222 {
+  top: 294px;
+  left: 141px;
+  width: 102px;
+  height: 139px;
+  position: absolute;
+}
+.page-landing-pagebutton-cup-premium1 {
+  top: 358px;
+  left: 0px;
+  width: 98px;
+  height: 90px;
+  position: absolute;
+}
+.page-landing-pagebutton-group23svg {
+  top: 2198px;
+  left: 81px;
+  width: 499px;
+  height: 549px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.page-landing-pagebutton-food-banner1 {
+  top: 0px;
+  left: 0px;
+  width: 499px;
+  height: 191px;
+  position: absolute;
+  border-radius: 8px;
+}
+.page-landing-pagebutton-image17 {
+  top: 213px;
+  left: 0px;
+  width: 237px;
+  height: 336px;
+  position: absolute;
+  border-radius: 8px;
+}
+.page-landing-pagebutton-image18 {
+  top: 213px;
+  left: 259px;
+  width: 237px;
+  height: 336px;
+  position: absolute;
+  border-radius: 8px;
+}
+.page-landing-pagebutton-text61 {
+  top: 3447px;
+  left: 73px;
+  color: rgba(68, 68, 68, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: italic;
+  text-align: left;
+  font-family: Figtree;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.page-landing-pagebutton-text63 {
+  top: 3496px;
+  left: 73px;
+  color: rgba(68, 68, 68, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: justified;
+  font-family: Figtree;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.page-landing-pagebutton-text84 {
+  top: 3357px;
+  left: 73px;
+  color: rgba(255, 198, 11, 1);
+  width: 662px;
+  height: auto;
+  position: absolute;
+  font-size: 64px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Figtree;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.page-landing-pagebutton-group24svg {
+  right: -550px;
+  width: 464px;
+  height: 390px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.page-landing-pagebutton-rectangle73 {
+  top: 0px;
+  left: 0px;
+  width: 190px;
+  height: 190px;
+  position: absolute;
+  border-radius: 30px;
+}
+.page-landing-pagebutton-rectangle76 {
+  top: 200px;
+  left: 0px;
+  width: 278px;
+  height: 130px;
+  position: absolute;
+  border-radius: 30px;
+}
+.page-landing-pagebutton-rectangle77 {
+  top: 2px;
+  right: 36px;
+  width: 126px;
+  height: 330px;
+  position: absolute;
+  border-radius: 30px;
+}
+.page-landing-pagebutton-rectangle74 {
+  top: 0px;
+  left: 200px;
+  width: 74px;
+  height: 71px;
+  position: absolute;
+  border-radius: 30px;
+}
+.page-landing-pagebutton-rectangle75 {
+  top: 100px;
+  left: 200px;
+  width: 75px;
+  height: 73px;
+  position: absolute;
+  border-radius: 30px;
+}

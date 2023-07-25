@@ -1,0 +1,41 @@
+* {
+    font-family: figtree;
+}
+
+.radio {
+    cursor: pointer;
+    display: inline-flex;
+    margin-left: 200px;
+    margin-bottom: 20px;
+  }
+
+
+  .radio__input {
+    display: none;
+    color: FF55FF;
+  }
+
+  .radio__radio {
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 2px solid #FFC60B;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding: 2px;
+  }
+
+  .radio__radio::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #FFC60B;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: transform 0.15s;
+  }
+
+  .radio__input:checked + .radio__radio::after {
+    transform: scale(1);
+  }

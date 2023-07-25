@@ -1,0 +1,439 @@
+* {
+    font-family: figtree;
+}
+
+.produk {
+    position: relative;
+    width: 600px;
+    height: 700px;
+  }
+  
+  .produk img {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+  }
+  
+  .produk .drag-scroll-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .produk .drag-scroll-container .draggable-image {
+    height: 600px;
+    /* Hapus margin yang sebelumnya diberikan */
+    /* margin: 5px; */
+    transform: scale(0.7); 
+  }
+  
+section .judul h1 {
+    position: absolute;
+    width: 559px;
+    height: 116px;
+    left: 752px;
+    top: 20px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #444444;
+}
+
+section .judul h3 {
+    position: absolute;
+    width: 191px;
+    height: 43px;
+    left: 752px;
+    top: 150px;
+
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #444444;
+}
+
+/* Teks 4.8 */
+section .judul p{
+    position: absolute;
+    width: 30px;
+    height: 24px;
+    left: 753px;
+    top: 220px;
+
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    color: #444444;
+}
+
+/* Star */
+section .judul img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 795px;
+    top: 200px;
+}
+
+/* Line */
+section .judul .line {
+    position: absolute;
+    width: 30px;
+    height: 0px;
+    left: 900px;
+    top: 250px;
+
+    border: 1.7px solid rgba(68, 68, 68, 0.5);
+    transform: rotate(90deg);
+}
+
+/* 21 */
+section .judul .nominal p{
+    position: absolute;
+    width: 20px;
+    height: 24px;
+    left: 940px;
+    top: 218px;
+
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    color: #444444;
+}
+
+/* Terjual */
+section .judul .terjual p{
+    position: absolute;
+    width: 47px;
+    height: 19px;
+    left: 969px;
+    top: 224px;
+
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+
+    color: #444444;
+}
+
+/* Icon Chat */
+section .judul .chat img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 752px;
+    top: 300px;
+}
+
+/* ! Button Masukkan Keranjang */
+section .judul .keranjang {
+    /** Rectangle */
+    position: absolute;
+    width: 240px;
+    height: 60px;
+    left: 822px;
+    top: 293px;
+    box-sizing: border-box;
+    border: 3px solid #FFC60B;
+    border-radius: 8px;
+}
+
+section .judul .keranjang p {
+    /** Tulisan  */
+    position: absolute;
+    width: 150px;
+    height: 19px;
+    left: 60px;
+    top: 4px;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #444444;
+}
+
+section .judul .keranjang img {
+    /* * Icon Cart */
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 14px;
+    top: 14px;
+}
+
+
+/* ! End of Button Keranjang */
+
+
+/* ! Button Beli Sekarang */
+section .judul .beli {
+    /** Rectangle */
+    position: absolute;
+    width: 191px;
+    height: 60px;
+    left: 1092px;
+    top: 293px;
+
+    background: #FFC60B;
+    border: none; /* Hapus border */
+    border-radius: 8px;
+    cursor: pointer; /* Menunjukkan kursor saat diarahkan ke tombol */
+    outline: none; /* Hilangkan focus ring saat tombol di klik */
+}
+
+section .judul .beli p {
+    /** Tulisan  */
+    position: absolute;
+    width: 123px;
+    height: 24px;
+    left: 37px;
+    top: 18px; /* Ubah nilai top untuk menengahkan teks di tombol */
+    margin: 0; /* Hapus margin pada p element */
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: white; /* Ganti warna teks menjadi putih */
+}
+
+/* Ganti warna latar saat tombol di-hover */
+section .judul .beli:hover {
+    background-color: #FFA300;
+}
+
+/* Ganti warna latar saat tombol di-klik */
+section .judul .beli:active {
+    background-color: #FF7F00;
+}
+
+
+/* ! End of Button Beli Sekarang */
+
+
+/* ! Kuantitas */
+section .judul .kuantitas p{
+    position: absolute;
+    width: 96px;
+    height: 24px;
+    left: 753px;
+    top: 375px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #444444;
+}
+
+/* ! End of Kuantitas */
+
+
+
+/* ! Button Kuantitas */
+
+section .judul .button-kuantitas {
+    /** Layout */
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    left: 670px;
+    top: -38px;
+}
+
+section .judul .button-kuantitas .buttonplus {
+    /** Rectangle 1 */
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 200px;
+    top: 431px;
+    
+    background: #FFC60B;
+    border-radius: 6px;
+}
+
+section .judul .button-kuantitas .buttonplus p {
+    /** Tanda + */
+    left: 8px;
+    top: -20px;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #444444;
+    
+}
+
+section .judul .button-kuantitas p {
+    /** Angka 1  */
+    position: absolute;
+    width: 9px;
+    height: 24px;
+    left: 250px;
+    top: 415px;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px
+}
+
+section .judul .button-kuantitas .buttonminus {
+    /** Rectangle 2 */
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 280px;
+    top: 431px;
+    
+    background: #FFC60B;
+    border-radius: 6px;
+}
+
+section .judul .button-kuantitas .buttonminus p {
+    /** Tanda - */
+    left: 11px;
+    top: -20px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #444444;
+    
+}
+
+
+/* ! End of Button Kuantitas */
+
+
+/*! Variasi */
+
+section .judul .variasi p {
+    position: absolute;
+    width: 72px;
+    height: 24px;
+    left: 753px;
+    top: 445px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #444444;
+}
+
+/* Tombol XB 1 */
+section .judul .xb1 {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    left: 751px;
+    top: 510px;
+}
+
+section .judul .xb1 button {
+    /* Styling tombol */
+    width: 100%;
+    height: 100%;
+    border: 1px solid #444444;
+    border-radius: 8px;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+/** XB 2 */
+section .judul .xb2 {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    left: 851px;
+    top: 510px;
+}
+
+section .judul .xb2 button {
+    /* Styling tombol */
+    width: 100%;
+    height: 100%;
+    border: 1px solid #444444;
+    border-radius: 8px;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+
+/** XB 3  */
+section .judul .xb3 {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    left: 951px;
+    top: 510px;
+}
+
+section .judul .xb3 button {
+    /* Styling tombol */
+    width: 100%;
+    height: 100%;
+    border: 1px solid #444444;
+    border-radius: 8px;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+/*! End of Variasi */
+
+
+/*! Deskripsi Produk  */
+
+section span {
+    position: absolute;
+    width: 622px;
+    height: 260px;
+    left: 752px;
+    top: 570px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #444444;
+    padding-bottom: 40px;
+
+    overflow: scroll;
+}
+
+/*! End pf Deskripsi Produk */

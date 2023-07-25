@@ -1,0 +1,769 @@
+* {
+    font-family: figtree;
+}
+
+section {
+    width: 1440px;
+    height: 1024px;
+}
+
+section .judul p {
+    position: absolute;
+    width: 213px;
+    height: 58px;
+    left: 50px;
+    top: -24px;
+    
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #444444;
+}
+
+/* ! Rectangle 1 */
+section .rectangle1 {
+    position: absolute;
+    width: 1340px;
+    height: 180px;
+    left: 50px;
+    top: 96px;
+    
+    background: #ffffff;
+    box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+/* ! Icon Lokasi */
+section .rectangle1 .lokasi {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 25px;
+    top: 25px;
+
+    background: url(img/location.svg);
+}
+
+/* ! Alamat Pengiriman */
+section .rectangle1 .alamat {
+    position: absolute;
+    width: 223px;
+    height: 31px;
+    left: 75px;
+    top: px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFC60B;
+}
+
+/* ! Edit */
+section .rectangle1 .edit {
+    position: absolute;
+    width: 70.94px;
+    height: 29px;
+    right: 50px;
+    top: 25px;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+}
+
+/* ! Alamat Rumah */
+section .rectangle1 .alamatrumah {
+    position: absolute;
+    width: 989px;
+    height: 81px;
+    left: 75px;
+    top: 60px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+    
+    color: #444444;
+}
+
+/* ! Rectangle "Harga Satuan" */
+section .rectangle-keterangan .harga-satuan {
+    position: absolute;
+    width: 126px;
+    height: 30px;
+    left: 889px;
+    top: 290px;
+    
+    background: #444444;
+    border-radius: 19px;
+}
+
+/* ! Tulisan "Harga Satuan */
+section .rectangle-keterangan .harga-satuan p {
+    position: absolute;
+    width: 98px;
+    height: 19px;
+    left:14px;
+    top: -10px;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #ffffff;
+}
+
+/* ! Rectangle "Jumlah" */
+section .rectangle-jumlah .jumlah {
+    position: absolute;
+    width: 126px;
+    height: 30px;
+    left: 1050px;
+    top: 290px;
+    
+    background: #444444;
+    border-radius: 19px;
+}
+
+/* ! Tulisan "Jumlah" */
+section .rectangle-jumlah .jumlah p {
+    position: absolute;
+    width: 98px;
+    height: 19px;
+    left:36px;
+    top:-10px;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #ffffff;
+}
+
+/* ! Rectangle "total harga" */
+section .rectangle-totalharga .total-harga {
+    position: absolute;
+    width: 126px;
+    height: 30px;
+    left: 1211px;
+    top: 290px;
+    
+    background: #444444;
+    border-radius: 19px;
+}
+
+/* ! Tulisan "total harga" */
+section .rectangle-totalharga .total-harga p {
+    position: absolute;
+    width: 98px;
+    height: 19px;
+    left:22px;
+    top:-10px;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #ffffff;
+}
+
+/* ! Rectangle Gelas */
+section .rectangle-gelas {
+    position: absolute;
+    width: 190px;
+    height: 164px;
+    left: 50px;
+    top: 335px;
+    
+    background: #FFFFFF;
+    box-shadow: -4px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+
+/* ! Gambar Gelas */
+section .rectangle-gelas .gelas {
+    position: absolute;
+    width: 148px;
+    height: 100px;
+    left: 21px;
+    top: 30px;
+    
+    background: url(img/mug.svg);
+}
+
+/* ! Rectangle Deskripsi Gelas */
+section .rectangle-deskripsi {
+    position: absolute;
+    width: 1142px;
+    height: 164px;
+    left: 248px;
+    top: 335px;
+    
+    background: #FFFFFF;
+    box-shadow: -4px 6px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+
+/* ! Judul Gelas */
+section .rectangle-deskripsi .judul p {
+    position: absolute;
+    width: 561px;
+    height: 26px;
+    left: 30px;
+    top: 0px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #444444;
+}
+
+/* ! Harga Gelas*/
+section .rectangle-deskripsi .harga p {
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 658px;
+    top: 50px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+}
+
+/* ! Jumlah Gelas*/
+section .rectangle-deskripsi .jumlah p {
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 862px;
+    top: 50px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+}
+
+/* ! Total Harga Gelas*/
+section .rectangle-deskripsi .totalharga p {
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 980px;
+    top: 50px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+}
+
+/* ! Tulisan Total Harga Gelas (Rp 34.000) */
+section .rectangle-deskripsi .variasi p {
+    position: absolute;
+    width: 86px;
+    height: 29px;
+    left: 30px;
+    top: 60px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #444444;
+}
+
+/* ! Rectangle Pembayaran */
+section .rectangle-pembayaran {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1340px;
+    height: 269px;
+    left: 50px;
+    top: 523px;
+    
+    background: #FFFFFF;
+    box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+}
+
+/* ! Icon Delivery */
+section .rectangle-pembayaran .opsi-pengiriman .delivery {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 90px;
+    top: 42px;
+    background: url(img/delivery.svg);
+}
+
+/* ! Tulisan "Opsi Pengiriman" */
+section .rectangle-pembayaran .opsi-pengiriman p{   
+    position: absolute;
+    width: 180px;
+    height: 29px;
+    left: 140px;
+    top: 20px;
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFC60B;
+}
+
+/* ! Lingkaran Gosend */
+section .rectangle-pembayaran .opsi-pengiriman .ellipse-gosend {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 141px;
+    top: 100px;
+    border: 2px solid #444444;
+    border-radius: 20px;
+}
+
+/* ! Logo Gosend */
+section .rectangle-pembayaran .opsi-pengiriman .gosend {
+    position: absolute;
+    width: 94px;
+    height: 18px;
+    left: 30px;
+    top: -3px;
+    
+    background: url(img/gosend.svg);
+}
+
+/* ! Lingkaran Ambil di Toko */
+section .rectangle-pembayaran .opsi-pengiriman .ellipse-toko {
+        
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 140px;
+    top: 140px;
+    border: 2px solid #444444;
+    border-radius: 20px;
+}
+
+/* ! Tulisan "Ambil di Toko" */
+section .rectangle-pembayaran .opsi-pengiriman .ellipse-toko p {
+    position: absolute;
+    width: 97px;
+    height: 19px;
+    left: 32px;
+    top: -20px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #444444;
+}
+
+/* ! Radio Button Opsi Pengiriman */
+
+.radio {
+    cursor: pointer;
+    display: inline-flex;
+    margin-left: 100px;
+}
+
+.radio1 {
+      cursor: pointer;
+      display: inline-flex;
+      margin-left: 139.5px;
+      margin-top: 90px;
+      margin-bottom: 20px;
+}
+
+.radio2 {
+    cursor: pointer;
+    display: inline-flex;
+    margin-left: 139.5px;
+    margin-bottom: 20px;
+}
+
+  .radio_gosend {
+    display: none;
+  }
+  
+  .radio_toko {
+    display: none;
+  }
+
+  .ellipse1 {
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 2px solid #FFC60B;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding: 2px;
+  }
+
+  .ellipse1::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #FFC60B;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: transform 0.15s;
+  }
+
+  /** Reaksi */
+  .radio_gosend:checked + .ellipse1::after {
+    transform: scale(1);
+  }
+
+  .radio_toko:checked + .ellipse1::after {
+    transform: scale(1);
+  }
+  
+  /* ! End of Radio Button Opsi Pengiriman */
+
+  /* ! Tulisan Metode Pembayaran */
+  section .rectangle-pembayaran .metode-pembayaran p {
+      position: absolute;
+      width: 240px;
+      height: 31px;
+      left: 515px;
+      top: 19px;
+      
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+      color: #FFC60B;
+}
+
+/* ! Icon Wallet */
+section .rectangle-pembayaran .metode-pembayaran .wallet img{
+    position: absolute;
+    left: 473px;
+    top: 46px;
+}
+
+/* ! Radio Button Metode Pembayaran */
+
+.radio3 {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    margin-left: 515px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    bottom: 55px;
+}
+
+.radio4 {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    margin-left: 678px;
+    margin-top: -190px;
+    margin-bottom: 0px;
+    bottom: 55px;
+}
+
+.radio4 span {
+    font-weight: 600;
+}
+
+.radio3 img {
+    margin-top: -5px;
+    margin-left: 4px;
+}
+
+.radio {
+    display: none;
+}
+
+.ellipse3 {
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 2px solid #FFC60B;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding: 2px;
+}
+
+.ellipse3::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #FFC60B;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: transform 0.15s;
+}
+
+/** Reaksi */
+.radio:checked + .ellipse3::after {
+  transform: scale(1);
+}
+
+.radio:checked + .ellipse4::after {
+  transform: scale(1);
+}
+
+/* ! End of Radio Button Metode Pembayaran */
+
+
+/* ! Tulisan Catatan Untuk Penjual */
+section .rectangle-pembayaran .catatan-penjual p {
+    position: absolute;
+    width: 244px;
+    height: 31px;
+    left: 904px;
+    top: 19px;
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFC60B;
+}
+
+
+section .rectangle-pembayaran .catatan-penjual input {
+    position: relative;
+    border:  1px solid #a6a6a6;
+    width: 341px;
+    height: 36px;
+    border-radius: 5px;
+    
+    margin-left: 903px;
+    bottom: 103px;
+}
+
+section .rectangle-pembayaran .catatan-penjual input::placeholder {
+    position: absolute;
+    left: 14px;
+}
+
+
+/* ! Rectangle Subtotal */
+
+section .subtotal {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1033px;
+    height: 142px;
+    left: 0px;
+    top: 295px;
+    
+    /* Text Button 1 */
+    background: #FFFFFF;
+    box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+/* ! Tulisan "Subtotal untuk Produk" */
+section .subtotal .subtotal-produk {
+    position: relative;
+    width: 200px;
+    height: 24px;
+    left: 23px;
+    top: -6px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+}
+
+/* ! Tulisan Subtotal Produk "Rp 34.000" */
+section .subtotal .harga-produk {
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 911px;
+    top: -6px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+}
+
+/* ! Tulisan "Total Ongkos Kirim" */
+section .subtotal .ongkos-kirim {
+    position: relative;
+    width: 169px;
+    height: 24px;
+    left: 23px;
+    top: -8px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+}
+
+/* ! Tulisan Total Ongkos Kirim "Rp 13.000" */
+section .subtotal .harga-ongkir {
+    position: absolute;
+    width: 169px;
+    height: 24px;
+    left: 915px;
+    top: 34px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+}
+
+/* ! Tulisan "Total Pembayaran" */
+section .subtotal .total-pembayaran {
+    position: relative;
+    width: 160px;
+    height: 24px;
+    left: 23px;
+    top: -10px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+}
+
+/* ! Tulisan Harga Bayar "Rp 47.000" */
+section .subtotal .harga-bayar {
+    position: absolute;
+    width: 135px;
+    height: 34px;
+    left: 870px;
+    top: 62px;
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+}
+
+/* ! Button Buat Pesanan */
+section .buat-pesanan input{
+    position: relative;
+    left: 1055px;
+    bottom: 114px;
+    width: 281px;
+    height: 72px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    border: none;
+    background-color: #FFC60B;
+    border-radius: 8px;
+}
+
+section .buat-pesanan input:hover{
+    background: #FF8B00;
+}
+
+
+section .buat-pesanan p {
+    cursor: pointer;
+    position: absolute;
+    width: 211px;
+    left: 1098px;
+    bottom: 18px;
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+/* section .buat-pesanan p {
+    position: relative;
+    width: 211px;
+    height: 42px;
+    font-weight: 600;
+    font-size: 32px;
+    /* background-color: salmon; */
+    /* color: #FFFFFF; */
+
+    /* left: 30px; */
+    /* bottom: 18px; */
+
+/* } */
+

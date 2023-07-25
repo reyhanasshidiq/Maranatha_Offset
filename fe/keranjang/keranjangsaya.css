@@ -1,0 +1,915 @@
+* {
+    font-family: figtree;
+}
+
+body{
+    width: 1440px;
+    height: 1024px;
+    background: var(--canvas, #F5F5F5);
+}
+
+section .keranjang h1 {
+
+    color: var(--text-icon, #444);
+    font-family: Figtree;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    position: absolute;
+    width: 400px;
+    left: 50px;
+    line-height: 24px;
+
+    color: #444444;
+
+}
+
+section .keranjang .buttonHarga {
+    /** Rectangle */
+
+    width: 126px;
+    height: 30px;
+    flex-shrink: 0;
+
+    position: absolute;
+    width: 126px;
+    height: 30px;
+    left: 680px;
+    top: 132px;
+    
+    box-sizing: border-box;
+    background:#444444;
+    border-radius: 19px;
+
+}
+
+section .keranjang .buttonHarga p {
+    /** Tulisan  */
+    color: #FFF;
+    text-align: center;
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 13px;
+    top: -11px;
+    
+}
+
+section .keranjang .buttonJumlah {
+    /** Rectangle */
+
+    width: 126px;
+    height: 30px;
+    flex-shrink: 0;
+
+    position: absolute;
+    width: 126px;
+    height: 30px;
+    left: 843px;
+    top: 132px;
+    
+    box-sizing: border-box;
+    background:#444444;
+    border-radius: 19px;
+
+}
+
+section .keranjang .buttonJumlah p {
+    /** Tulisan  */
+    color: #FFF;
+    text-align: center;
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 13px;
+    top: -11px;
+    
+}
+
+section .keranjang .buttonTotalHarga {
+    /** Rectangle */
+
+    width: 126px;
+    height: 30px;
+    flex-shrink: 0;
+
+    position: absolute;
+    width: 126px;
+    height: 30px;
+    left: 1008px;
+    top: 132px;
+    
+    box-sizing: border-box;
+    background:#444444;
+    border-radius: 19px;
+
+}
+
+section .keranjang .buttonTotalHarga p {
+    /** Tulisan  */
+    color: #FFF;
+    text-align: center;
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 13px;
+    top: -11px;
+    
+}
+
+section .keranjang .buttonAksi {
+    /** Rectangle */
+
+    width: 126px;
+    height: 30px;
+    flex-shrink: 0;
+
+    position: absolute;
+    width: 126px;
+    height: 30px;
+    left: 1172px;
+    top: 132px;
+    
+    box-sizing: border-box;
+    background:#444444;
+    border-radius: 19px;
+
+}
+
+section .keranjang .buttonAksi p {
+    /** Tulisan  */
+    color: #FFF;
+    text-align: center;
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 13px;
+    top: -11px;
+    
+}
+
+section .barang1 .gambarProduk1 {
+    position: absolute;
+    width: 190px;
+    height: 164px;
+    flex-shrink: 0;
+
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: -4px 6px 8px 0px rgba(0, 0, 0, 0.25);
+
+    left: 50px;
+    top: 182px;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #444444;
+}
+
+section .barang1 .gambarProduk1 img {
+    width: 148px;
+    height: 100px;
+    flex-shrink: 0;
+    position: absolute;
+    width: 148px;
+    height: 100px;
+    left: 21px;
+    top: 32px;
+}
+
+section .barang1 .descProduk1 {
+    /** Rectangle */
+
+    position: absolute;
+    width: 1160px;
+    height: 164px;
+    flex-shrink: 0;
+    left: 248px;
+    top: 182px;
+    
+    box-sizing: border-box;
+    background:#444444;
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: -4px 6px 8px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+/* namaProduk1 */
+section .barang1 .namaProduk1 p{
+
+    width: 239px;
+    height: 63px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 272px;
+    top: 192px;
+
+    color: #444;
+    font-family: Figtree;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    color: #444444;
+}
+
+/* variasi */
+section .barang1 .variasi h3{
+
+    color: var(--text-icon, #444);
+    font-family: Figtree;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    width: 239px;
+    height: 63px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 273px;
+    top: 255px;
+
+    color: #444444;
+}
+
+section .barang1 .buttonVar {
+    /** Rectangle */
+    position: absolute;
+    width: 146px;
+    height: 40px;
+    flex-shrink: 0;
+
+    border-radius: 6px;
+    border: 1px solid var(--text-icon, #444);rder: 1px solid var(--text-icon, #444);
+    left: 370px;
+    top: 274px;
+
+}
+
+section .barang1 .buttonVar img{
+    /** Icon */
+    position: absolute;
+    width: 18px;
+    height: 26.526px;
+    flex-shrink: 0;
+
+    left: 116px;
+    top: 9px;
+
+}
+
+section .barang1 .buttonVar p{
+    /** Text */
+    color: var(--text-icon, #444);
+    font-family: Figtree;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    position: absolute;
+    width: 150px;
+    height: 19px;
+    left: 9px;
+    top: -12px;
+    
+    color: #444444;
+
+}
+
+section .barang1 .hargaSatuan p{
+    /** Text */
+    color: var(--text-icon, #444);
+    text-align: center;
+    font-family: Figtree;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    position: absolute;
+    width: 239px;
+    height: 63px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 623px;
+    top: 231px;
+    
+    color: #444444;
+
+}
+
+section .barang1 .plus {
+    /** Rectangle */
+    position: absolute;
+    width: 240px;
+    height: 60px;
+    left: 850px;
+    top: 248px;
+
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    
+    box-sizing: border-box;
+    background:#FFC60B;
+    border-radius: 6px;
+
+}
+
+section .barang1 .plus p {
+    /** Tulisan  */
+    position: absolute;
+    width: 13px;
+    height: 24px;
+    left: 9px;
+    top: -18px;
+    
+    color: var(--text-icon, #444);
+    font-family: Figtree;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/* jumlah */
+section .barang1 .jumlah p{
+    position: absolute;
+    width: 47px;
+    height: 19px;
+    left: 898px;
+    top: 232px;
+
+    color: var(--text-icon, #444);
+    font-family: Figtree;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+section .barang1 .minus {
+    /** Rectangle */
+    position: absolute;
+    width: 240px;
+    height: 60px;
+    left: 926px;
+    top: 248px;
+
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    
+    box-sizing: border-box;
+    background:#FFC60B;
+    border-radius: 6px;
+
+}
+
+section .barang1 .minus p {
+    /** Tulisan  */
+    position: absolute;
+    width: 13px;
+    height: 24px;
+    left: 11px;
+    top: -18px;
+    
+    color: var(--text-icon, #444);
+    font-family: Figtree;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/* totalHarga */
+section .barang1 .totalHarga h3{
+
+    color: var(--text-icon, #444);
+    text-align: center;
+    font-family: Figtree;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    width: 239px;
+    height: 63px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 951px;
+    top: 231px;
+
+    color: #444444;
+}
+
+/* aksi */
+section .barang1 .aksi img{
+
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 1220px;
+    top: 246px;
+
+    color: #444444;
+}
+
+section .barang1 .checklist {
+    /** Rectangle */
+    position: absolute;
+    width: 240px;
+    height: 60px;
+    left: 1330px;
+    top: 248px;
+
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    
+    box-sizing: border-box;
+    background:#FFC60B;
+    border-radius: 6px;
+
+}
+
+section .barang1 .checklist img {
+    /** icon  */
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    flex-shrink: 0;
+    left: 3px;
+    top: 2px;
+    color: var(--text-icon, #444);
+    
+}
+
+section .barang2 .gambarProduk2 {
+    position: absolute;
+    width: 190px;
+    height: 164px;
+    flex-shrink: 0;
+
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: -4px 6px 8px 0px rgba(0, 0, 0, 0.25);
+
+    left: 50px;
+    top: 373px;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #444444;
+}
+
+section .barang2 .gambarProduk2 img {
+    width: 130px;
+    height: 135px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+}
+
+section .barang2 .descProduk2 {
+    /** Rectangle */
+
+    position: absolute;
+    width: 1160px;
+    height: 164px;
+    flex-shrink: 0;
+    left: 248px;
+    top: 373px;
+    
+    box-sizing: border-box;
+    background:#444444;
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: -4px 6px 8px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+/* namaProduk2 */
+section .barang2 .namaProduk2 p{
+
+    width: 400px;
+    height: 63px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 273px;
+    top: 382px;
+
+    color: #444;
+    font-family: Figtree;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    color: #444444;
+}
+
+/* variasi */
+section .barang2 .variasi h3{
+
+    color: var(--text-icon, #444);
+    font-family: Figtree;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    width: 239px;
+    height: 63px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 273px;
+    top: 448px;
+
+    color: #444444;
+}
+
+section .barang2 .buttonVar {
+    /** Rectangle */
+    position: absolute;
+    width: 96px;
+    height: 40px;
+    flex-shrink: 0;
+
+    border-radius: 6px;
+    border: 1px solid var(--text-icon, #444);rder: 1px solid var(--text-icon, #444);
+    left: 370px;
+    top: 466px;
+
+}
+
+section .barang2 .buttonVar p{
+    /** Text */
+    color: var(--text-icon, #444);
+    font-family: Figtree;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    position: absolute;
+    width: 150px;
+    height: 19px;
+    left: 9px;
+    top: -12px;
+    
+    color: #444444;
+
+}
+
+section .barang2 .buttonVar img{
+    /** Icon */
+    position: absolute;
+    width: 18px;
+    height: 26.526px;
+    flex-shrink: 0;
+
+    left: 67px;
+    top: 9px;
+
+}
+
+section .barang2 .hargaSatuan p{
+    /** Text */
+    color: var(--text-icon, #444);
+    text-align: center;
+    font-family: Figtree;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    position: absolute;
+    width: 239px;
+    height: 63px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 623px;
+    top: 423px;
+    
+    color: #444444;
+
+}
+
+section .barang2 .plus {
+    /** Rectangle */
+    position: absolute;
+    width: 240px;
+    height: 60px;
+    left: 850px;
+    top: 437px;
+
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    
+    box-sizing: border-box;
+    background:#FFC60B;
+    border-radius: 6px;
+
+}
+
+section .barang2 .plus p {
+    /** Tulisan  */
+    position: absolute;
+    width: 13px;
+    height: 24px;
+    left: 9px;
+    top: -18px;
+    
+    color: var(--text-icon, #444);
+    font-family: Figtree;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/* jumlah */
+section .barang2 .jumlah p{
+    position: absolute;
+    width: 47px;
+    height: 19px;
+    left: 898px;
+    top: 423px;
+
+    color: var(--text-icon, #444);
+    font-family: Figtree;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+section .barang2 .minus {
+    /** Rectangle */
+    position: absolute;
+    width: 240px;
+    height: 60px;
+    left: 926px;
+    top: 437px;
+
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    
+    box-sizing: border-box;
+    background:#FFC60B;
+    border-radius: 6px;
+
+}
+
+section .barang2 .minus p {
+    /** Tulisan  */
+    position: absolute;
+    width: 13px;
+    height: 24px;
+    left: 11px;
+    top: -18px;
+    
+    color: var(--text-icon, #444);
+    font-family: Figtree;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/* totalHarga */
+section .barang2 .totalHarga h3{
+
+    color: var(--text-icon, #444);
+    text-align: center;
+    font-family: Figtree;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    width: 239px;
+    height: 63px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 951px;
+    top: 423px;
+
+    color: #444444;
+}
+
+/* aksi */
+section .barang2 .aksi img{
+
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 1220px;
+    top: 432px;
+
+    color: #444444;
+}
+
+section .barang2 .checklist {
+    /** Rectangle */
+    position: absolute;
+    width: 240px;
+    height: 60px;
+    left: 1330px;
+    top: 436px;
+
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    
+    box-sizing: border-box;
+    background:#FFC60B;
+    border-radius: 6px;
+
+}
+
+section .barang2 .checklist img {
+    /** icon  */
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    flex-shrink: 0;
+    left: 3px;
+    top: 2px;
+    color: var(--text-icon, #444);
+    
+}
+
+section .checkout .kotak {
+    /** Rectangle */
+
+    position: absolute;
+    width: 1355px;
+    height: 164px;
+    flex-shrink: 0;
+    left: 50px;
+    top: 798px;
+    /* margin-bottom: -200px; */
+    
+    box-sizing: border-box;
+    background:#444444;
+    border-radius: 14px;
+    background: var(--text-button-1, #FFF);
+    box-shadow: -4px 6px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+section .checkout .checklistPilih {
+    /** Rectangle */
+    position: absolute;
+    left: 110px;
+    top: 865px;
+
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid var(--text-icon, #444);
+
+}
+
+section .checkout .pilihsemua {
+    /** Tulisan */
+
+    color: var(--text-icon, #444);
+    text-align: center;
+    font-family: Figtree;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    position: absolute;
+    left: 154px;
+    top: 836px;
+
+}
+
+section .checkout .totalproduk {
+    /** Tulisan */
+
+    color: var(--text-icon, #444);
+    text-align: center;
+    font-family: Figtree;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    position: absolute;
+    left: 574px;
+    top: 836px;
+
+}
+
+section .checkout .harga {
+    /** Tulisan */
+
+    color: var(--aksen, #FF8B00);
+    text-align: center;
+    font-family: Figtree;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    position: absolute;
+    left: 810px;
+    top: 792px;
+
+}
+
+section .checkout .buttonCheckout {
+    /** Rectangle */
+    position: absolute;
+    left: 1138px;
+    top: 848px;
+
+    width: 219px;
+    height: 72px;
+    flex-shrink: 0;
+        
+    border-radius: 8px;
+    background: var(--button-shape, #FFC60B);
+
+}
+
+section .checkout .buttonCheckout p {
+    /** Tulisan  */
+    display: flex;
+    width: 143px;
+    height: 42px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    position: absolute;
+    left: 35px;
+    top: -18px;
+    
+    color: var(--text-button-1, #FFF);
+    text-align: center;
+    font-family: Figtree;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
